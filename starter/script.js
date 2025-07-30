@@ -216,6 +216,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach(img => imgObserver.observe(img));
+
 //////////////////////////////////////
 //////////////////////////////////////
 //////////////////////////////////////
@@ -350,6 +351,22 @@ imgTargets.forEach(img => imgObserver.observe(img));
 // // Going Upward: parents
 // console.log(h1.parentNode);
 // console.log(h1.parentElement);
+
+// h1.closest('.header').style.background = 'var(--gradient-secondary)';
+// h1.closest('h1').style.background = 'var(--gradient-primary)';
+
+// // Going sideways: siblings
+// console.log(h1.nextSibling);
+// console.log(h1.previousSibling);
+
+// console.log(h1.previousElementSibling);
+// console.log(h1.nextElementSibling);
+
+// console.log(h1.parentElement.children);
+// [...h1.parentElement.children].forEach(function (el) {
+//   if (el !== h1) el.style.transform = 'scale(0.5)';
+// });
+
 
 // h1.closest('.header').style.background = 'var(--gradient-secondary)';
 // h1.closest('h1').style.background = 'var(--gradient-primary)';

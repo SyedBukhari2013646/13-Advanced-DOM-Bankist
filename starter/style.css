@@ -381,7 +381,6 @@ h4 {
 
   /* IN THE END */
   overflow: hidden;
-  overflow: hidden;
 }
 
 .slide {
@@ -460,7 +459,7 @@ h4 {
 
 .dots__dot--active {
   /* background-color: #fff; */
-  background-color: #888;
+  background-color: #848484;
   opacity: 1;
 }
 
